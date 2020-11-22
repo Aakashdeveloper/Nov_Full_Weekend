@@ -22,3 +22,16 @@ Github
 ////////////
 inline  > start from same line
 block   > start in new line
+
+/////
+inline Css
+style tag
+stylesheet
+
+inline>styletag>stylesheet
+
+///////
+target by
+id is for unique  #
+class is for common .
+tagname is like any tag and target all tags

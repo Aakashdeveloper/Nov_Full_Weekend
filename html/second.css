@@ -1,0 +1,97 @@
+.imageContainer{
+    background: url('https://i.ibb.co/Cv6Y9NL/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    border:1px double black
+}
+body{
+    margin: auto;
+}
+#logo{
+    background:#fff;
+    font-size: 90px;
+    color:red;
+    height:150px;
+    width:150px;
+    text-align: center;
+    margin: auto;
+    margin-top:80px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    
+}
+
+p{
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 35px;
+}
+
+#heading{
+    text-align: center;
+    color:black;
+    font-size:36px
+}
+
+.locationSelector{
+    margin-top:40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.dropdown{
+    height:50px;
+    width:250px;
+    font-size:20px
+}
+
+/*Quick Search Page*/
+.quickSearchContainer{
+    margin-left:115px;
+    margin-top:50px;
+}
+
+.quickSearchHeading{
+    text-align:left;
+    color:#192f60;
+    font-size:30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.quickSearchSubHeading{
+    text-align:left;
+    color:gray;
+    font-size:30px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+}
+
+.tileContainer{
+    height:180px;
+    width:28%;
+    display: inline-block;
+    margin-right: 3%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 15px 15px 10px black;
+
+}
+
+.tileComponent1{
+    width:46%;
+    float: left;
+}
+
+.tileComponent2{
+    width:46%;
+    float: left;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.tileContainer:hover{
+    transform: scale(1.1,1.1);
+}
